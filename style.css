@@ -7,3 +7,35 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.searchInput::placeholder {
+  color: lightgray;
+}
