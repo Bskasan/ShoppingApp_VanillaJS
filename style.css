@@ -46,26 +46,70 @@ nav {
   cursor: pointer;
 }
 
-.navBottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menuItem {
-    margin-right: 50px;
-    cursor: pointer;
-    color: lightgray;
-    padding: 10px;
-    font-weight: 400;
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
+  padding: 10px;
+  font-weight: 400;
 }
 
-.slider{
-    background: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
+.slider {
+  background: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
 }
 
 .sliderWrapper {
-    
+  display: flex;
+  width: 500vw;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slideBg {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  background-color: lightgray;
+  position: absolute;
+}
+
+.sliderImage {
+    z-index: 1;
+}
+
+/*! if the slider title is absoute, you need to make your parent relative.*/
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  border: 1px solid gray;
+  z-index: 1;
 }
