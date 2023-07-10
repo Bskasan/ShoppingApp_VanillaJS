@@ -1,0 +1,13 @@
+# E-COMMERCE WEBSITE
+
+## ABOUT PROJECT
+
+
+
+### TECHNOLOGIES
+
+-> HTML
+-> CSS
+-> JavaScript ( DOM MANIPULATION )
+-> VanillaJS
+
