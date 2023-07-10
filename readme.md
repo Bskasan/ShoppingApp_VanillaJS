@@ -6,8 +6,8 @@
 
 ### TECHNOLOGIES
 
--> HTML
--> CSS
--> JavaScript ( DOM MANIPULATION )
--> VanillaJS
+- HTML
+- CSS
+- JavaScript ( DOM MANIPULATION )
+- VanillaJS
 
