@@ -39,3 +39,9 @@ nav {
 .searchInput::placeholder {
   color: lightgray;
 }
+
+.limitedOffer {
+  font-size: 1.5rem;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
