@@ -50,7 +50,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    
 }
 
 .menuItem {
@@ -59,4 +59,13 @@ nav {
     color: lightgray;
     padding: 10px;
     font-weight: 400;
+}
+
+.slider{
+    background: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 78%);
+}
+
+.sliderWrapper {
+    
 }
