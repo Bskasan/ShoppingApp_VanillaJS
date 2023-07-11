@@ -206,3 +206,9 @@ nav {
   font-weight: 600;
   margin: 10px;
 }
+
+.featureDesc {
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
