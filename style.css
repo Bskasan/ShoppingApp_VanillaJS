@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* Scroll Animation */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -236,7 +241,6 @@ nav {
 .productTitle {
   font-size: 2rem;
   font-weight: 900;
-  
 }
 
 .productDesc {
@@ -274,7 +278,7 @@ nav {
   transition: 150ms ease-in-out;
 }
 
-.size:hover{
+.size:hover {
   background-color: lightgray;
 }
 
@@ -289,7 +293,7 @@ nav {
   font-weight: 600;
 }
 
-.productButton:hover{
+.productButton:hover {
   background-color: white;
   color: black;
 }
