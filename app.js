@@ -79,8 +79,23 @@ const products = [
   },
 ];
 
+// ? -------------- CHOSEN PRODUCT -------------- //
+let choosenProduct = products[0];
+
+const currentProductImg = document.querySelector(".productImage");
+const currentProductTitle = document.querySelector(".productTitle");
+const currentProductPrice = document.querySelector(".porductPrice");
+const currentProductColors = document.querySelectorAll(".color");
+const currentProductSizes = document.querySelectorAll(".size");
+
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
+    //* Change the current slide
     wrapper.style.transform = `translateX(${-100 * index}vw)`;
+
+    //* Change the choosen product 
+    choosenProduct = products[index];
+
+
   });
 });
