@@ -415,3 +415,34 @@ label {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
   border-radius: 5px;
 }
+
+/* ! ----------- NEW SEASON ----------------- !*/
+.newSeason {
+  display: flex;
+}
+
+.nsItem {
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nsImage {
+  width: 100%;
+  height: auto;
+}
+
+.nsTitleSm{
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.nsButton {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
