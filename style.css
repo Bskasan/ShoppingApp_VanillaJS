@@ -297,3 +297,24 @@ nav {
   background-color: white;
   color: black;
 }
+
+/* ! --------- PAYMENT MODULE ------------- */
+
+.payment {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 8px 7px -4px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 6px 8px 7px -4px rgba(0, 0, 0, 0.66);
+  box-shadow: 6px 8px 7px -4px rgba(0, 0, 0, 0.66);
+}
