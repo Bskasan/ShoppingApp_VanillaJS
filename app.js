@@ -105,3 +105,10 @@ menuItems.forEach((item, index) => {
     });
   });
 });
+
+//* Changing the image for shoes in different colors.
+currentProductColors.forEach((color, index) => {
+  color.addEventListener("click", () => {
+    currentProductImg.src = choosenProduct.colors[index].img;
+  });
+});
