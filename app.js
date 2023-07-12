@@ -9,11 +9,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/air.png",
+        img: "./images/air.png",
       },
       {
         code: "darkblue",
-        img: "./img/air2.png",
+        img: "./images/air2.png",
       },
     ],
   },
@@ -24,11 +24,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/jordan.png",
+        img: "./images/jordan.png",
       },
       {
         code: "green",
-        img: "./img/jordan2.png",
+        img: "./images/jordan2.png",
       },
     ],
   },
@@ -39,11 +39,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/blazer.png",
+        img: "./images/blazer.png",
       },
       {
         code: "green",
-        img: "./img/blazer2.png",
+        img: "./images/blazer2.png",
       },
     ],
   },
@@ -54,11 +54,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/crater.png",
+        img: "./images/crater.png",
       },
       {
         code: "lightgray",
-        img: "./img/crater2.png",
+        img: "./images/crater2.png",
       },
     ],
   },
@@ -69,11 +69,11 @@ const products = [
     colors: [
       {
         code: "gray",
-        img: "./img/hippie.png",
+        img: "./images/hippie.png",
       },
       {
         code: "black",
-        img: "./img/hippie2.png",
+        img: "./images/hippie2.png",
       },
     ],
   },
@@ -97,5 +97,11 @@ menuItems.forEach((item, index) => {
     choosenProduct = products[index];
     currentProductTitle.textContent = products[index].title;
     currentProductPrice.textContent = `$${products[index].price}`;
+    currentProductImg.src = choosenProduct.colors[0].img;
+
+    //* Assign new colors
+    currentProductColors.forEach((color, index) => {
+      color.style.backgroundColor = choosenProduct.colors[index].code;
+    });
   });
 });
