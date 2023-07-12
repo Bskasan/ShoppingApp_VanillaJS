@@ -117,8 +117,7 @@ currentProductColors.forEach((color, index) => {
 //* Changing the Size of Shoes
 currentProductSizes.forEach((size, index) => {
   size.addEventListener("click", () => {
-    
-    //! Reset other sizes 
+    //! Reset other sizes
     currentProductSizes.forEach((size) => {
       size.style.backgroundColor = "white";
       size.style.color = "black";
@@ -129,3 +128,24 @@ currentProductSizes.forEach((size, index) => {
     size.style.color = "white";
   });
 });
+
+//? ---------------- PAYMENT PANEL & MODULE ------------------ //
+const productButton = document.querySelector(".productButton");
+const payment = document.querySelector(".payment");
+const closeButton = document.querySelector(".close");
+const paymentButton = document.querySelector(".paymentButton");
+
+productButton.addEventListener("click", () => {
+  payment.style.display = "flex";
+});
+
+closeButton.addEventListener("click", () => {
+  payment.style.display = "none";
+});
+
+paymentButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  payment.style.display = "none";
+  console.log("Payment Confirmed!");
+});
+
